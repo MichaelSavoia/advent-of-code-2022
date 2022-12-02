@@ -1,14 +1,10 @@
 # Typescript Advent of Code 2022
 
----
-
 These are my solutions for the [Advent of Code](https://adventofcode.com/) challenges for 2022.
 
 I am using Typescript for my solutions and ts-node to run them.
 
 ## Getting Started
-
----
 
 While not required to run the solutions, use your favorite package manager to install deps to use my teeny little CLI and to run the tests.
 
