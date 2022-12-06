@@ -1,4 +1,4 @@
-import { getTotalPointsForPart1, getTotalPointsForPart2 } from "./index";
+import { getTotalPointsForPart1, getTotalPointsForPart2 } from "./";
 
 const input = `
 A Y

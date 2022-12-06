@@ -1,4 +1,4 @@
-import { solution1, solution2 } from ".";
+import { solution1, solution2 } from "./";
 
 const input = `
 vJrwpWtwJgWrhcsFMMfFFhFp

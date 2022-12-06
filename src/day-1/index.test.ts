@@ -1,7 +1,7 @@
 import {
 	getGreatestCaloriesTotal,
 	getGreatestCaloriesTotalOfTopThree,
-} from "./index";
+} from "./";
 
 const input = `
 1000
