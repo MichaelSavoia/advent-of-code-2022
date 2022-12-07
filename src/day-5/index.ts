@@ -37,7 +37,8 @@ function parseStacks(input: string) {
 		.fill("")
 		.map(() => new Stack());
 	splitStackStr.forEach((row) => {
-		// gross RegExs to reduce row down to only the crate labels with spaces as empty rows
+		// gross RegExs to reduce row down to only the crate labels with spaces
+		// acting as a signifier for there being no crate in that column for the given row
 		let parsedRow = `${row}`
 			.replaceAll(/\s{4}/g, " ")
 			.replaceAll(/\[|\] |\]/g, "")
